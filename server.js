@@ -40,7 +40,22 @@ app.post("/api/notes", (req, res) => {
   });
 });
 
-// TODO: Basic DELTE functionality
+// Basic DELETE functionality
+app.delete("/api/notes/:id", (req, res) => {
+  const id = req.params.id - 1;
+  fs.readFile(__dirname + "/db/db.json", "utf8", (err, data) => {
+    if (err) throw err;
+    const notes = JSON.parse(data);
+    notes.splice(id, 1);
+    fs.writeFile(
+      __dirname + "/db/db.json",
+      JSON.stringify(notes),
+      (err, data) => {
+        if (err) throw err;
+      }
+    );
+  });
+});
 
 // Handle 404 errors by sending index.html
 app.use((req, res) => {
