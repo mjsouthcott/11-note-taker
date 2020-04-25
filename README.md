@@ -12,7 +12,7 @@ This is a web application that allows users to create, save, view and delete not
 
 ## Table of Contents
 
-* Installation
+* [Installation](https://github.com/mjsouthcott/11-note-taker#Installation)
 * Usage
 * License
 * Contributing
