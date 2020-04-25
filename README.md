@@ -13,9 +13,9 @@ This is a web application that allows users to create, save, view and delete not
 ## Table of Contents
 
 * [Installation](https://github.com/mjsouthcott/11-note-taker#Installation)
-* Usage
-* License
-* Contributing
+* [Usage](https://github.com/mjsouthcott/11-note-taker#Usage)
+* [License](https://github.com/mjsouthcott/11-note-taker#License)
+* [Contributing](https://github.com/mjsouthcott/11-note-taker#Contributing)
 
 ## Installation
 
