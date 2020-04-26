@@ -25,6 +25,10 @@ To install the application, click "Clone or download", copy the URL, launch Git 
 
 Launch Git Bash and navigate to the application's root directory. Once there, use `npm install` to install the dependecies, followed by `node server.js` to run the application server. In a web browser, go to `localhost:3000` and follow the instructions to create notes.
 
+![Demo 1](https://github.com/mjsouthcott/11-note-taker/blob/master/assets/demo1.gif)
+
+![Demo 2](https://github.com/mjsouthcott/11-note-taker/blob/master/assets/demo2.gif)
+
 ## Licence
 
 MIT License
