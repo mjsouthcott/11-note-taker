@@ -8,18 +8,18 @@ GitHub Username: mjsouthcott
 
 ## Description
 
-This is a web application that allows users to create, save, view and delete notes. Notes consist of a title and text. When saved, new notes are added to an array of note objects, which is written to db.json. HTTP GET, POST and DELETE requests are routed by server.js. This application uses HTML5, CSS3, Bootstrap, Javascript, Ajax, Node.js, Express.js and various Node.js packages.
+This is a web application that allows users to create, save, view and delete notes. Notes consist of a title and text. When saved, new notes are added to an array of note objects, which is written to `db.json`. HTTP GET, POST and DELETE requests are routed using application methods defined in `server.js`. This application uses HTML5, CSS3, Bootstrap, Javascript, Ajax, Node.js, Express.js and various Node.js packages.
 
 ## Table of Contents
 
-* Installation
-* Usage
-* License
-* Contributing
+* [Installation](https://github.com/mjsouthcott/11-note-taker#Installation)
+* [Usage](https://github.com/mjsouthcott/11-note-taker#Usage)
+* [License](https://github.com/mjsouthcott/11-note-taker#License)
+* [Contributing](https://github.com/mjsouthcott/11-note-taker#Contributing)
 
 ## Installation
 
-To install this application, click "Clone or download", copy the URL, launch Git Bash, navigate to your desired directory and use `git clone` followed by the copied URL.
+To install the application, click "Clone or download", copy the URL, launch Git Bash, navigate to your desired directory and use `git clone` followed by the copied URL.
 
 ## Usage
 
